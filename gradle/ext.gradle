@@ -1,0 +1,12 @@
+ext {
+    pluginName = 'remove-first-token'
+    pluginClassname  = 'nl.ronalddehaan.plugin.RemoveTokenPlugin'
+    pluginDescription = 'Remove first token from character stream'
+    user = 'Ronald'
+    name = 'elasticsearch-analysis-decompound'
+    versions = [
+            'elasticsearch' : '6.2.2',
+            'log4j': '2.5',
+            'junit' : '4.12'
+    ]
+}
